@@ -1,0 +1,47 @@
+git init
+
+git add -A
+
+git status
+
+git commit -m "nome da versão"
+
+git config -- global user.email "email do git hub"
+git config -- global user.name "nome de identificação"
+
+git remote add origin <URL do repositório>
+
+git push origin master
+
+git pull
+
+git pull origin main
+
+git checkout main
+
+git merge master
+
+Pull Request (PR) - feito na nuvem
+
+merge - juntar ramificações no codigo - main + master - feito na propria maquina ou na nuvem
+porem é necessario atender 4 requisitos:
+
+1-0 conflito
+2-review
+3-teste automatizado
+4-aprovar
+
+
+1 CRIOU O POJETO NO VS
+2 TRANSFORMOU A PASTA EM GIT ( git init ) 
+3 ADICIONOU OS ARQUIVOS ( git add -A )
+4 COMMITOU OS ARQUIVOS ( git commit -m "xxx" ) = user.email = user.name =
+5 PUSH NO REPOSITÓRIO ( git push origin main ) = git remote add origin = 
+
+
+1 CRIOU O REPOSITÓRIO NO GIT 	
+2 CLONOU REPOSITÓRIO ( git clone xxx url do repositório )
+3 CRIAR PROJETO NO VS NA PASTA DO CLONE
+
+
+
